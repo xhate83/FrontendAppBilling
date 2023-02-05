@@ -1,0 +1,11 @@
+<ng-container>
+  <app-side-nav-inner-toolbar title="{{appInfo.title}}">
+    <router-outlet></router-outlet>
+    <app-footer>
+      Copyright © {{appInfo.currentYear}} {{appInfo.title}}.
+      <br/>
+      All trademarks or registered trademarks are property of their respective owners.
+    </app-footer>
+  </app-side-nav-inner-toolbar>
+</ng-container>
+
