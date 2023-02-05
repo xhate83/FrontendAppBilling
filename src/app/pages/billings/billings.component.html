@@ -62,7 +62,7 @@
 
 <!-- Show product popup -->
 <dx-popup
-    [width]="800"
+    [width]="400"
     [maxWidth]="'95%'"
     [showTitle]="true"
     title="Products"
@@ -122,6 +122,16 @@
             
           
           </ng-container>
+          <div class="product-container">
+            <div class="item-container">
+              <div>
+                Total billing:
+              </div>
+              <div>
+                COP {{ currentBilling?.totalPrice | number: '1.0-0' }}
+              </div>
+            </div>
+          </div>
         </div>
       </dx-scroll-view>
      

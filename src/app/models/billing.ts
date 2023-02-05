@@ -8,6 +8,7 @@ export interface Billing {
     idCustomer: number;
     customer: Customer;
     products: Product[];
+    totalPrice?: number;
 }
 
 export interface NewBilling {
